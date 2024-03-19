@@ -52,7 +52,7 @@ def main():
     closest_subset = find_closest_subset(cities, K)
     print("Podzbior K=N/2 najblizszy 50% populacji:")
     for city in closest_subset:
-        print(city[1], "-", city[2], "mieszkancow")
+        print(city[1], "->", city[2], "mieszkancow")
 
    
 
